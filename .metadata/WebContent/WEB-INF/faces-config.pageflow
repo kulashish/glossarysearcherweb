@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf13382789512040" configfile="/glossarysearcherweb/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="onto-view" x="84" y="59" id="pf13383563387620" outlinks="pf13383563387621" path="/onto-view.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="search-results" x="377" y="59" id="pf13383563387632" inlinks="pf13383563387621" path="/search-results.jsp"/>
+  <links id="pf13383563387621" target="pf13383563387632" source="pf13383563387620"/>
+</pageflow:Pageflow>

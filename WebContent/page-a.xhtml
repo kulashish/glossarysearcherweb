@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html">
+<h:head><title>JSF 2.0: Blank Starting-Point Project</title>
+</h:head>
+<h:body>
+<div align="center">
+<h1>JSF 2.0: Blank Starting-Point Project</h1>
+<p>
+<b>This is Page A.</b> You should access this page as "page-a.jsf",
+not as "page-a.xhtml". If the following looks like an input form, and pressing
+the button navigates to Page B, it shows that you have
+correctly installed JSF 2.0. Use this project as the starting point
+for your own JSF 2.0 projects, as described in the tutorial.
+</p>
+<fieldset>
+<legend>JSF Test Form</legend>
+<h:form>
+  Some random data: <h:inputText/><br/>  <!-- Textfield ignored -->
+  Some other data: <h:inputText/><br/>   <!-- Textfield ignored -->
+  <h:commandButton value="Go to Page B" 
+                   action="page-b"/>     <!-- Navigates to page-b.jsf -->
+</h:form>
+</fieldset>
+<p>
+If the tags like h:form and h:commandButton are totally ignored, it probably
+means that you don't have jsf-api.jar and jsf-impl.jar in WEB-INF/lib, or that
+you haven't mapped the FacesServlet in web.xml. If you get a JSF-specific error message,
+it probably means that you used the wrong URL (i.e, ending in page-a.xhtml instead of 
+page-a.jsf).
+</p>
+
+<hr/>
+<br/><br/><br/><br/><br/><br/>
+<font size="-3">All code from the
+<a href="http://courses.coreservlets.com/Course-Materials/">
+coreservlets.com J2EE tutorials (servlets, JSP, Struts, JSF 1.x, JSF 2.0, Ajax [with jQuery, Prototype,
+Scriptaculous, Dojo, Ext-JS, and Google Closure], GWT 2.0, Spring, Hibernate, JPA,
+SOAP-based and RESTful Web Services, &amp; Java 6 programming)</a>. There are also live instructor-led
+<a href="http://courses.coreservlets.com/">training courses on
+the same J2EE topics (servlets, JSP, Struts, JSF 1.x, JSF 2.0, Ajax [with jQuery, Prototype,
+Scriptaculous, Dojo, Ext-JS, and Google Closure], GWT 2.0, Spring, Hibernate, JPA,
+SOAP-based and RESTful Web Services, &amp; Java 6 programming)</a>.
+</font>
+</div></h:body></html>
